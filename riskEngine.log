@@ -1,0 +1,88 @@
+nohup: ignoring input
+Mon, 16 Nov 2020 00:36:47 GMT body-parser deprecated undefined extended: provide extended option at riskEngine.js:555:17
+ICA RiskFabric - Request:
+CloudSoc ThreatDetect - Request:
+Example app listening at risk.iamdemo.broadcom.com:3000
+Response from CloudSoc ThreatDetect - statusCode: 200
+PROCESSING CloudSoc DATA
+Response from ICA RiskFabric - statusCode: 200
+PROCESSING ICA DATA
+USERNAME david.smith@bcm-demo110.com
+PASSWORD password
+DFP _v02MyUgNGgYOi88OTk0emB7ZXV9Ajw7MToiJnUbAXVkZXtlbnUCPDtjYW51LWNhfHUUJSU5MAIwNx48IXpgZmJ7ZmN1fR4dARgZeXU5PD4wdRIwNj46fHUWPSc6ODB6bWN7ZXthZ2Fle2RkZHUGNDM0Jzx6YGZie2ZjKQI8O2ZnczMlJjZoZ2EpZGxnZSlkZW1lKWRsZ2UpZGVhZXMzJSYiaDw7ITAnOzQ5eCUxM3gjPDAiMCcpOD0/Mzc4MTI2Mz83NyU0MDo/OjM6PTowMzI8MD0/NDwpPDshMCc7NDl4OzQ2OXglOSAyPDtzMyUlPGhzMyUhL2hkZHMzJTk7aDA7eAAGKSkpczMlNiVoZWRkZGVkZGRkZGRkZGRkZGRkZGRkZGVkZGRkZGRkZGRkZGRlZGRkZGVkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRlZGVzMyUjNmhzMyUjJmhnczw7NmhlczMlISZoZGZkY2VhZmJhYmxlYGVmczMlITJobWNsM2xnZmEwYzBmYWc0bW03bGQxZ2U3N2c0bDRkYDQ=
+VIP Intelligent Authentication - Request:
+Response from VIP IA - statusCode: 200
+Risky 6009
+Response { xmlns: 'https://schemas.symantec.com/vip/2011/04/vipuserservices',
+  requestId: 'mni00100017',
+  status: '6009',
+  statusMessage: 'Authentication failed.',
+  Risky: 'true',
+  RiskScore: '0',
+  RiskThreshold: '30',
+  RiskReason: 'Device recognition',
+  PolicyVersion: '1.0',
+  EventId: '21812878323',
+  RequestContext:
+   { Ip: '35.197.173.108',
+     UserAgent: 'Mozilla',
+     IpLocation:
+      { Country: 'australia',
+        State: 'new south wales',
+        City: 'sydney',
+        Latitude: '-33.8689',
+        Longitude: '151.2071' } },
+  KeyValuePairs:
+   [ { Key: 'device.match.method', Value: 'TAG_INVALID' },
+     { Key: 'device.registered', Value: 'false' },
+     { Key: 'device.registered.reason',
+       Value: 'Registered device not detected: invalid tag' },
+     { Key: 'device.shared', Value: 'false' },
+     { Key: 'device.tag', Value: 'a4b03e08f7be41c6a99dbef79f7e989b' },
+     { Key: 'location.ip.coordinates', Value: '-33.8689,151.2071' },
+     { Key: 'location.ip.country.state.city',
+       Value: 'australia/new south wales/sydney' },
+     { Key: 'external.user.id',
+       Value: 'david.smith@bcm-demo110.com' },
+     { Key: 'device.tag.id', Value: 'VSDIE5Y4EXQR' } ] }
+VIP Push Notification - Request:
+Response from VIP PUSH - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Poll Transaction ID =  a35a723242089_1A
+Response from PUSH POLL - statusCode: 200
+Deny Risk ID =  21812878323
+Response from DENY RISK - statusCode: 200
+Response from Deny Risk: SUCCESS
+ICA RiskFabric - Request:
+CloudSoc ThreatDetect - Request:
+Response from ICA RiskFabric - statusCode: 200
+PROCESSING ICA DATA
+Response from CloudSoc ThreatDetect - statusCode: 200
+PROCESSING CloudSoc DATA
+ICA RiskFabric - Request:
+CloudSoc ThreatDetect - Request:
+Response from ICA RiskFabric - statusCode: 200
+PROCESSING ICA DATA
+Response from CloudSoc ThreatDetect - statusCode: 200
+PROCESSING CloudSoc DATA
+ICA RiskFabric - Request:
+CloudSoc ThreatDetect - Request:
+Response from ICA RiskFabric - statusCode: 200
+PROCESSING ICA DATA
+Response from CloudSoc ThreatDetect - statusCode: 200
+PROCESSING CloudSoc DATA
